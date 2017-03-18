@@ -23,4 +23,20 @@
     }, 1000)
 </script>
 ```
+## Get Variable Javascript to Form HTML
+``` bash
+<form action="">
+<input type="hidden" id="getNum" name="dataNum">
+<input type="hidden" id="getString" name="dataString">
+</form>
+
+<script type="text/javascript">
+var num = 100;
+var str = 'hello';
+     $(document).ready(function() {
+          document.getElementById("getNum").value = num;
+          document.getElementById("getString").value = str;
+     });
+</script>
+```
 
