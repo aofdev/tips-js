@@ -16,7 +16,7 @@
 
 <script type="text/javascript">
     setInterval(function () {
-        $('#re').load(document.URL + ' #re');                  //automatically  Refresh 1s
+        $('#re').load(document.URL + ' #re');                  //Refresh 1 second
     }, 1000)
 </script>
 ```
