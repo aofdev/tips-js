@@ -10,3 +10,14 @@
 </script>
 ```
 
+## Automatically  Refresh DOM HTML
+``` bash
+<div id="re"></div>
+
+<script type="text/javascript">
+    setInterval(function () {
+        $('#re').load(document.URL + ' #re');                  //automatically  Refresh 1s
+    }, 1000)
+</script>
+```
+
