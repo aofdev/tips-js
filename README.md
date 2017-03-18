@@ -1,6 +1,6 @@
 # Tips-Js
 
-![alt tag](http://i.imgur.com/dSkU3uC.png)
+<div style="text-align:center"><img src ="http://i.imgur.com/dSkU3uC.png" /></div>
 
 ## Disable right click on my web page, Disable view source, Disable developer tools
 ``` bash
