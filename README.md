@@ -2,7 +2,7 @@
 
 ![alt tag](http://i.imgur.com/dSkU3uC.png)
 
-## disable right click on my web page, disable view source, disable developer tools
+## Disable right click on my web page, Disable view source, Disable developer tools
 ``` bash
 <script language="javascript">
     window.oncontextmenu = function () { return false; };
