@@ -40,3 +40,19 @@ var str = 'hello';
 </script>
 ```
 
+## Get Variable Form Select Html with JQuery
+``` bash
+<select id="inputSelect" name="carlist">
+  <option value="1">Volvo</option>
+  <option value="2">Saab</option>
+  <option value="3">Opel</option>
+  <option value="4">Audi</option>
+</select>
+
+<script type="text/javascript">
+     $(document).ready(function() {
+     var getDataSelect = $('#inputSelect').find(":selected").val();
+     });
+</script>
+```
+
