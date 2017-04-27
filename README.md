@@ -1,4 +1,4 @@
-# Tips-Js :bulb:
+# Tips-Js How To :bulb:
 
 <p align="center">
   <img src ="http://i.imgur.com/dSkU3uC.png" />
