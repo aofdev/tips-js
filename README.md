@@ -6,7 +6,7 @@
 
 
 ## Disable right click on my web page, Disable view source, Disable developer tools
-``` bash
+``` javascript
 <script language="javascript">
     window.oncontextmenu = function () { return false; };
     document.onkeydown = function(e){ if(event.keyCode == 123) {return false; } if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){return false;}if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){return false;}if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){return false;}}
@@ -14,7 +14,7 @@
 ```
 
 ## Automatically  Refresh DOM HTML
-``` bash
+``` javascript
 <div id="re"></div>
 
 <script type="text/javascript">
@@ -24,7 +24,7 @@
 </script>
 ```
 ## Get Variable Javascript to Form HTML
-``` bash
+``` javascript
 <form action="">
 <input type="hidden" id="getNum" name="dataNum">
 <input type="hidden" id="getString" name="dataString">
@@ -41,7 +41,7 @@ var str = 'hello';
 ```
 
 ## Get Variable Form Select Html with JQuery
-``` bash
+``` javascript
 <select id="inputSelect" name="carlist">
   <option value="1">Volvo</option>
   <option value="2">Saab</option>
